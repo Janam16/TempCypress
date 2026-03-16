@@ -1,0 +1,40 @@
+{
+  "baseURL": "https://rahulshettyacademy.com/angularpractice/",
+  "uat": {
+  "NegativeValidation": [
+    {
+      "name": "Anikha_uat",
+      "email": "anikha@gmail.com",
+      "password": "Test@123"
+    },
+    {
+      "name": "James_uat",
+      "email": "james@gmail.com",
+      "password": "Test@123"
+    }
+  ],
+  "PositiveValidation": [
+    {
+      "name": "Anikha_uat1",
+      "email": "anikha@gmail.com",
+      "password": "Test@123"
+    },
+    {
+      "name": "James_uat1",
+      "email": "james@gmail.com",
+      "password": "Test@123"
+    }
+  ],
+  "DataVerification": [
+    {
+      "name": "Shizun_uat2",
+      "email": "shizun@gmail.com",
+      "password": "Test@123",
+      "gender": "Female",
+      "employmentStatus": "Employed",
+      "dateOfBirth": "01-01-1990"
+    }
+  ]
+}
+
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="seleniumdemo" parallel="tests">
+  <listeners>
+    <listener class-name="rahulshetty.TestComponents.Listeners"/>
+  </listeners>
+
+<!-- Optional groups section -->
+  <groups>
+    <run>
+      <!--<exclude name="Smoke"/>-->
+      <include name="SingleDataJson"/>
+    </run>
+  </groups>
+  
+  <test thread-count="5" name="Submit Form">
+    <classes>
+      <class name="rahulshetty.tests.TestSelenium"/>
+    </classes>
+  </test>
+
+  <test thread-count="5" name="Submit Form Copy">
+    <classes>
+      <class name="rahulshetty.tests.TestSeleniumcopy"/>
+    </classes>
+  </test>
+
+  <test thread-count="5" name="Shopping Cart">
+    <classes>
+      <class name="rahulshetty.tests.GreenKartcopy"/>
+    </classes>
+  </test>
+
+  <test thread-count="5" name="Data Verification Test">
+    <classes>
+      <class name="rahulshetty.tests.TestSeleniumData"/>
+    </classes>
+  </test>
+
+  <test thread-count="5" name="Single Data Json Test without DataProvider">
+    <classes>
+      <class name="rahulshetty.tests.Singlejson"/>
+    </classes>
+  </test>
+</suite>

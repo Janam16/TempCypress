@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="17" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-15T17:52:04 IST" name="smoke" finished-at="2026-03-15T17:52:04 IST" duration-ms="0">
+    <groups>
+    </groups>
+    <test started-at="2026-03-15T17:52:04 IST" name="Submit Form" finished-at="2026-03-15T17:52:04 IST" duration-ms="0">
+    </test> <!-- Submit Form -->
+    <test started-at="2026-03-15T17:52:04 IST" name="Submit Form Copy" finished-at="2026-03-15T17:52:04 IST" duration-ms="0">
+    </test> <!-- Submit Form Copy -->
+  </suite> <!-- smoke -->
+  <suite started-at="2026-03-15T17:52:02 IST" name="seleniumdemo" finished-at="2026-03-15T17:52:04 IST" duration-ms="2227">
+    <groups>
+      <group name="SingleDataJson">
+        <method signature="Singlejson.NegativeValidationTest()[pri:0, instance:rahulshetty.tests.Singlejson@48075da3]" name="NegativeValidationTest" class="rahulshetty.tests.Singlejson"/>
+      </group> <!-- SingleDataJson -->
+    </groups>
+    <test started-at="2026-03-15T17:52:02 IST" name="Data Verification Test" finished-at="2026-03-15T17:52:02 IST" duration-ms="4">
+    </test> <!-- Data Verification Test -->
+    <test started-at="2026-03-15T17:52:02 IST" name="Submit Form Copy" finished-at="2026-03-15T17:52:02 IST" duration-ms="4">
+    </test> <!-- Submit Form Copy -->
+    <test started-at="2026-03-15T17:52:02 IST" name="Shopping Cart" finished-at="2026-03-15T17:52:02 IST" duration-ms="3">
+    </test> <!-- Shopping Cart -->
+    <test started-at="2026-03-15T17:52:02 IST" name="Submit Form" finished-at="2026-03-15T17:52:02 IST" duration-ms="4">
+    </test> <!-- Submit Form -->
+    <test started-at="2026-03-15T17:52:02 IST" name="Single Data Json Test without DataProvider" finished-at="2026-03-15T17:52:04 IST" duration-ms="2226">
+      <class name="rahulshetty.tests.Singlejson">
+        <test-method is-config="true" signature="setEnvironment()[pri:0, instance:rahulshetty.tests.Singlejson@48075da3]" started-at="2026-03-15T17:52:02 IST" name="setEnvironment" finished-at="2026-03-15T17:52:02 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEnvironment -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:rahulshetty.tests.Singlejson@48075da3]" started-at="2026-03-15T17:52:02 IST" name="initializeDriver" finished-at="2026-03-15T17:52:04 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="NegativeValidationTest()[pri:0, instance:rahulshetty.tests.Singlejson@48075da3]" started-at="2026-03-15T17:52:04 IST" name="NegativeValidationTest" finished-at="2026-03-15T17:52:04 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshetty.tests.Singlejson@48075da3]" started-at="2026-03-15T17:52:04 IST" name="tearDown" finished-at="2026-03-15T17:52:04 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rahulshetty.tests.Singlejson -->
+    </test> <!-- Single Data Json Test without DataProvider -->
+  </suite> <!-- seleniumdemo -->
+</testng-results>
