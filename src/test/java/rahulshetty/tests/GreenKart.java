@@ -31,7 +31,7 @@ public class GreenKart{
             String productName = products.get(i).getText().split("-")[0].trim();
             if(productList.contains(productName)){
                 driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click();  
-                System.out.println("Added to cart: " + productName);
+                System.out.println("Added to cart: Prod" + productName);
                 addedItems.add(productName);
             }
         }

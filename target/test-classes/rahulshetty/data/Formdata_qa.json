@@ -1,0 +1,27 @@
+{
+  "baseURL": "https://rahulshettyacademy.com/angularpractice/",
+  "NegativeValidation": 
+    {
+      "name": "Anikha_qa",
+      "email": "anikha@gmail.com",
+      "password": "Test@123"
+    },
+  "PositiveValidation": 
+    {
+      "name": "Anikha_qa1",
+      "email": "anikha@gmail.com",
+      "password": "Test@123"
+    },
+  "DataVerification": 
+    {
+      "name": "Shizun_qa2",
+      "email": "shizun@gmail.com",
+      "password": "Test@123",
+      "gender": "Female",
+      "employmentStatus": "Employed",
+      "dateOfBirth": "01-01-1990"
+    }
+  
+}
+
+  
